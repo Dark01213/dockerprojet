@@ -54,11 +54,11 @@ Voici les commandes faites pour installer l'appli du début à la fin :
 
     - lancer la création de l'image avec :
 
-        - docker build –t rentalservice . ( en supprimant le - et en le remettant soi-même , puis en ne mettant aucune majuscule .)
+        - docker build –t rentalserviceimage . ( en supprimant le - et en le remettant soi-même , puis en ne mettant aucune majuscule .)
     
     puis vérifier en lançant la run de docker avec : 
 
-        - docker run –p 8080:8080 rentalservice ( en faisant la même chose , supprimer le - et le remettre )
+        - docker run –p 8080:8080 rentalserviceimage ( en faisant la même chose , supprimer le - et le remettre )
 
 ### Dernière étape : 
     

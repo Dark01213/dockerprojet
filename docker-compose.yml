@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  prenomservice:
+    image: ch2314/prenomservice-php:1
+    ports:
+      - "8080:80"
+    networks:
+      - monreseau
+
+  rentalservice:
+    image: ch2314/rentalserviceimage:1
+    ports:
+      - "8081:8080"
+    networks:
+      - monreseau
+
+networks:
+  monreseau:
+    driver: bridge
